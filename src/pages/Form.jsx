@@ -83,7 +83,7 @@ const Form = () => {
                     </div>
                     <div className="input-group">
                         <label htmlFor="location"></label>
-                        <input required className="bg-gray-300 rounded-3xl py-1.5 pl-7 pr-10 text-gray-900 hover:ring-2 ring-inset hover:ring-blue-400 placeholder:text-gray-500 focus:ring-2 focus:ring-inset focus:ring-blue-700 outline-none sm:text-sm/6" placeholder="location" type="text" name="location" id="location" />
+                        <input required className="bg-gray-300 w-[100%] rounded-3xl py-1.5 pl-7 pr-10 text-gray-900 hover:ring-2 ring-inset hover:ring-blue-400 placeholder:text-gray-500 focus:ring-2 focus:ring-inset focus:ring-blue-700 outline-none sm:text-sm/6" placeholder="location" type="text" name="location" id="location" />
                     </div>
                     <div className="input-group">
                         <label htmlFor="category"></label>
