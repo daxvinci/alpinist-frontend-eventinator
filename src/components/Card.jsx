@@ -23,7 +23,7 @@ const Card = ({event}) => {
                         </div>
                     </div>
                     <Link className="card min-w-[80%] p-4 flex md:flex-row flex-col-reverse gap-1 m:gap-3 justify-between shadow-lg rounded-3xl backdrop:blur-xl flex-grow" to={`/event/${event.eventId}`}>
-                        <div className="event-details md:w-full flex flex-col gap-2">
+                        <div className="event-details md:w-[60%] flex flex-col gap-2">
                             <h1 className="title text-2xl font-bold">{event.title}</h1>
                             <h3 className="location text-gray-200 flex gap-3 items-center font-semibold">{event.location}< FaSearchLocation size={17}/></h3>
                             <h3 className="category text-gray-500 font-semibold">{event.category}</h3>
