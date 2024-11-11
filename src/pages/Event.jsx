@@ -12,8 +12,6 @@ const Event = () => {
     const params = useParams();
     const [eventDetail,setEventDetail] = useState()
     const [formattedDate, setFormattedDate] = useState("");
-
-    //for date
     
 
     useEffect(()=>{
@@ -55,14 +53,14 @@ const Event = () => {
     }
     return ( 
         <>
-       <div className="min-h-screen w-full p-5">
+       <div className="min-h-screen w-full p-2 md:p-5">
                 <Link to="/">
                     < FaArrowCircleLeft size={40} />
                 </Link>
-            <div className="hello container w-[50%] p-5 mx-auto">
+            <div className="hello container md:w-[50%] p-5 mx-auto">
                 < Heading />
                 <div className="w-full flex flex-col gap-4 justify-between details-card bg-[#363a3d1c] rounded-3xl p-8">
-                    <div className="image-detail w-[70px] h-[70px] md:min-w-[250px] md:min-h-[250px] self-center rounded-3xl relative overflow-hidden">
+                    <div className="image-detail min-w-[150px] min-h-[150px] md:min-w-[250px] md:min-h-[250px] self-center rounded-3xl relative overflow-hidden">
                         <img className="object-cover absolute inset-0 w-full h-full " src={eventDetail.image} alt={`image of ${eventDetail.title}`} />
                     </div>
                     <h2 className="text-3xl font-bold">{eventDetail.title}</h2>
