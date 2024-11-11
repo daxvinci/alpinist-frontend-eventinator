@@ -10,7 +10,7 @@
 
 ### Setup instructions
     To set up the project, 
-    clone the repository using `git clone https://github.com/daxvinci/alpinist-frontend-eventinator.git`,
+    clone the repository using `git clone -[https://github.com/daxvinci/alpinist-frontend-eventinator.git]`,
     navigate into the project directory with `cd Eventinator`, 
     install the dependencies by running `npm install`,
     start the development server with `npm run dev`.
