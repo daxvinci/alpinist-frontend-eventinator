@@ -1,5 +1,7 @@
 # Eventinator
-    Eventinator is an event web app that allows users to browse, view, and filter events. Key features include detailed event pages, category-based filtering, and a user-friendly interface for seamless navigation.
+    Eventinator is an event web app that allows users to browse,
+    view, and filter events. Key features include detailed event pages,
+    category-based filtering, and a user-friendly interface for seamless navigation.
 
 ## Tech Used
     I used React library with tailwindcs
@@ -8,7 +10,8 @@
 
 ### Setup instructions
     To set up the project, 
-    clone the repository using `git clone <this repository-url>`,
+    clone the repository using `git clone https://github.com/daxvinci/alpinist-frontend-eventinator.git`,
     navigate into the project directory with `cd Eventinator`, 
     install the dependencies by running `npm install`,
-    start the development server with `npm run dev`. The app will be accessible at `http://localhost:3000`.
+    start the development server with `npm run dev`.
+    The app will be accessible at `http://localhost:3000`.
