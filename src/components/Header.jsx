@@ -7,7 +7,7 @@ const Header = () => {
     const {events,setData,setFilterName} = useContext(dataContext);
     const [filter, setFilter] = useState();
     const location = useLocation();
-    const isActive = (path) => location.pathname === path ? "active routes text-xs md:text-xs nav-item hover:border-b-2 hover:border-amber-400" : "routes text-xs md:text-base nav-item hover:border-b-2 hover:border-amber-400";
+    const isActive = (path) => location.pathname === path ? "active routes text-xs md:text-base nav-item hover:border-b-2 hover:border-amber-400" : "routes text-xs md:text-base nav-item hover:border-b-2 hover:border-amber-400";
 
     const handleSearch = (e) => {
         if(e.target.value.length >= 0){
