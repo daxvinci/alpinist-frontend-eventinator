@@ -47,3 +47,15 @@ body{
         transform: translateY(0);
     }
 }
+
+.date {
+    
+    writing-mode: horizontal-tb;
+  }
+  
+  @media (max-width: 640px) {
+    .date {
+      writing-mode: vertical-rl;
+      text-orientation: upright;
+    }
+  }
