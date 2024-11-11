@@ -27,9 +27,9 @@ const Card = ({event}) => {
                             <h1 className="title text-2xl font-bold">{event.title}</h1>
                             <h3 className="location text-gray-200 flex gap-3 items-center font-semibold">{event.location}< FaSearchLocation size={17}/></h3>
                             <h3 className="category text-gray-500 font-semibold">{event.category}</h3>
-                            <h3 className="description text-gray-200 font-semibold">{event.description.substring(0,50)}{event.description.length > 50 && "...."}</h3>
+                            <h3 className="description text-gray-200 truncate font-semibold">{event.description}</h3>
                         </div>
-                        <div className="event-img min-w-[200px] min-h-[200px] md:w-[120px] md:h-[120px] rounded-2xl overflow-hidden relative">
+                        <div className="event-img min-w-[200px] min-h-[200px] md:min-w-[120px] md:min-h-[120px] md:w-[120px] md:h-[120px] rounded-2xl overflow-hidden relative">
                             <img src={event.image} alt={`image of ${event.title}`} className="absolute inset-0 w-full h-full object-cover" />
                         </div>
 
